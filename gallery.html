@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Starter Gallery – Vintage Cars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #f4f4f4;
+        }
+
+        header {
+            background: #222;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #444;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 0.95rem;
+            color: #ccc;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 20px auto 40px;
+            padding: 0 15px;
+        }
+
+        .intro {
+            margin-bottom: 25px;
+            line-height: 1.6;
+            color: #ddd;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        figure {
+            background: #1b1b1b;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid #333;
+        }
+
+        figure img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        figcaption {
+            padding: 10px 12px 12px;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .title {
+            font-weight: bold;
+            margin-bottom: 4px;
+            color: #f0f0f0;
+        }
+
+        .credit {
+            font-size: 0.8rem;
+            color: #aaa;
+        }
+
+        .credit a {
+            color: #7fb8ff;
+            text-decoration: none;
+        }
+
+        .credit a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 10px 25px;
+            font-size: 0.8rem;
+            color: #888;
+            border-top: 1px solid #333;
+            background: #151515;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vintage Car Starter Gallery</h1>
+        <p>A small gallery of free-to-use images of classic and antique cars.</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>
+                This starter gallery showcases three images of old cars, all sourced from Pexels and
+                licensed for free use. Each image includes proper attribution with links back to the
+                photographer and the original image page on Pexels.
+            </p>
+        </section>
+
+        <section class="gallery">
+            <!-- IMAGE 1 -->
+            <figure>
+                <!-- Replace the src URL with the direct image link from your chosen Pexels photo -->
+                <img src="https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg"
+                     alt="Rusty vintage car parked in front of an old building at sunset">
+                <figcaption>
+                    <div class="title">Rusty Classic at Sunset</div>
+                    <div>
+                        A weathered vintage car sits in front of an old brick building, glowing in the warm
+                        light of sunset. The rust, faded paint, and soft sky give the scene a nostalgic,
+                        cinematic feel.
+                    </div>
+                    <div class="credit">
+                        Photo by
+                        <a href="https://www.pexels.com/@mikebirdy/" target="_blank" rel="noopener noreferrer">
+                            Mike Bird
+                        </a>
+                        on
+                        <a href="https://www.pexels.com/photo/old-rusty-car-210019/" target="_blank" rel="noopener noreferrer">
+                            Pexels
+                        </a>.
+                    </div>
+                </figcaption>
+            </figure>
+
+            <!-- IMAGE 2 -->
+            <figure>
+                <!-- Replace the src URL with the direct image link from your chosen Pexels photo -->
+                <img src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg"
+                     alt="Close-up of a vintage car headlight and chrome details">
+                <figcaption>
+                    <div class="title">Chrome and Curves</div>
+                    <div>
+                        A close-up view of a vintage car’s headlight and chrome bumper highlights the smooth
+                        curves and polished metal that defined classic automotive design.
+                    </div>
+                    <div class="credit">
+                        Photo by
+                        <a href="https://www.pexels.com/@mikebirdy/" target="_blank" rel="noopener noreferrer">
+                            Mike Bird
+                        </a>
+                        on
+                        <a href="https://www.pexels.com/photo/close-up-of-vintage-car-112460/" target="_blank" rel="noopener noreferrer">
+                            Pexels
+                        </a>.
+                    </div>
+                </figcaption>
+            </figure>
+
+            <!-- IMAGE 3 -->
+            <figure>
+                <!-- Replace the src URL with the direct image link from your chosen Pexels photo -->
+                <img src="https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg"
+                     alt="Vintage car parked on a cobblestone street in an old town">
+                <figcaption>
+                    <div class="title">Old Town Cruiser</div>
+                    <div>
+                        A classic car is parked on a cobblestone street, surrounded by historic buildings.
+                        The scene feels like stepping back in time, with the car acting as a bridge between
+                        past and present.
+                    </div>
+                    <div class="credit">
+                        Photo by
+                        <a href="https://www.pexels.com/@maria-geller-682739/" target="_blank" rel="noopener noreferrer">
+                            Maria Geller
+                        </a>
+                        on
+                        <a href="https://www.pexels.com/photo/vintage-car-on-street-1402787/" target="_blank" rel="noopener noreferrer">
+                            Pexels
+                        </a>.
+                    </div>
+                </figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        Starter Gallery – Vintage Cars | All images used under the free-to-use Pexels license.
+    </footer>
+</body>
+</html>
