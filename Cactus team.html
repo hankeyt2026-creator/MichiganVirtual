@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cactus Crew</title>
 
+    <style>
+        /* Color palette */
+        :root {
+            --chestnut: #954535;   /* warm brown */
+            --lime: #8CFF32;       /* bright lime green */
+            --chill-pink: #FFB7D5; /* soft pink accent */
+        }
+
+        /* Navigation bar using position */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--chestnut);
+            color: white;
+            padding: 12px;
+        }
+
+        nav a {
+            color: var(--chill-pink);
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        body {
+            margin-top: 80px;
+            font-family: Arial, sans-serif;
+            background-color: var(--lime);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--chestnut);
+        }
+
+        /* Team member container */
+        .member {
+            width: 90%;
+            margin: 20px auto;
+            overflow: auto; /* clears the float */
+            padding: 20px;
+            background-color: white;
+            border-left: 8px solid var(--chill-pink);
+            border-radius: 10px;
+        }
+
+        /* Float the images */
+        .member img {
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+            border-radius: 10px;
+            border: 3px solid var(--chestnut);
+        }
+
+        .member h2 {
+            margin-top: 0;
+            color: var(--chestnut);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cactus Crew</a>
+        <a href="#">Gallery</a>
+        <a href="#">Care Tips</a>
+    </nav>
+
+    <h1>Meet the Cactus Crew</h1>
+
+    <div class="member">
+        <img src="https://via.placeholder.com/150" alt="Saguaro">
+        <h2>Sage the Saguaro</h2>
+        <p>Sage is the wise elder of the cactus crew. Towering and calm, Sage has been soaking up sunshine for decades and always knows how to stay grounded.</p>
+    </div>
+
+    <div class="member">
+        <img src="https://via.placeholder.com/150" alt="Prickly Pear">
+        <h2>Poppy the Prickly Pear</h2>
+        <p>Poppy is bright, cheerful, and full of personality. With colorful pads and a flair for drama, Poppy brings energy to the whole team.</p>
+    </div>
+
+    <div class="member">
+        <img src="https://via.placeholder.com/150" alt="Barrel Cactus">
+        <h2>Barlow the Barrel Cactus</h2>
+        <p>Short, round, and surprisingly tough, Barlow is the dependable one. He may look cute, but he’s built to survive anything the desert throws at him.</p>
+    </div>
+
+    <div class="member">
+        <img src="https://via.placeholder.com/150" alt="Bunny Ear Cactus">
+        <h2>Bella the Bunny Ear</h2>
+        <p>Bella is the soft-looking but spicy member of the crew. Her adorable ear-shaped pads hide tiny glochids that keep everyone respectful of her space.</p>
+    </div>
+
+</body>
+</html>
