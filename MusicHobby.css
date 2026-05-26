@@ -52,3 +52,9 @@ body {
   color: #005bb5;
 }
 
+.text-box {
+  max-width: 60%;
+  margin: 0 auto;   /* centers it */
+  line-height: 1.6; /* optional: makes it easier to read */
+}
+
